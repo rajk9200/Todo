@@ -1,2 +1,2 @@
 "# todoListProject" 
-# Todo
+# Todo application

@@ -1,0 +1,2 @@
+docker build --tag mycode .
+docker run -publish 8000:8000 mycode
