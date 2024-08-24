@@ -68,7 +68,10 @@
 
 <script>
 function loadTasklist(){
-    $( "#todo_data" ).load( "http://127.0.0.1:8000/tasks/" );
+    const path = window.location.protocol + "//" + window.location.host;
+    const loader = path + "/tasks/";
+    console.log(loader);
+    $("#todo_data").load(loader)
     }
    loadTasklist()
 </script>
